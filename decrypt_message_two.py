@@ -12,5 +12,7 @@ for i in range(0, len(encrypted_message)-1, 2):
     decrypted_message += encrypted_message[i]
     decrypted_message += encrypted_message[-i-2]
 
+# Print result
 print(decrypted_message)
+
 
